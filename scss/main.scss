@@ -1,0 +1,24 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+  width: 100%;
+  display: block;
+}
+
+#app-container{
+   background: #0A0A0A;
+   color: #FFF;
+   padding: 40px;
+
+   .thumbsize {
+      width: 170px;
+   }
+
+   .userNameBack{
+      background-color: tomato;
+      color: #0A0A0A;
+   }
+
+
+}
